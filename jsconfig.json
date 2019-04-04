@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "config/*": ["src/config/*"],
+      "components/*": ["src/components/*"],
+      "containers/*": ["src/containers/*"],
+      "ducks/*": ["src/ducks/*"],
+      "shared/*": ["src/shared/*"],
+      "app/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

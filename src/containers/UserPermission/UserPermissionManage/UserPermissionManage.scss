@@ -1,0 +1,54 @@
+.widgets {
+  .refreshBtn {
+    margin-left: 20px;
+  }
+  tr.saving {
+    opacity: 0.8;
+    :global(.btn) {
+      &[disabled] {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.pageHeader {
+  padding: 20px 0 20px 0;
+}
+.table thead {
+  .idCol {
+    width : 10%;
+  }
+  .nameCol {
+    width : 11%;
+  }
+  .actionCol{
+    width : 10%;
+    min-width: 150px;
+  }
+  .platformCol {
+    width : 11%;
+  }
+  .tagCol {
+    width : 20%;
+  }
+}
+.detailIcon {
+  color: darkgray;
+}
+
+.runIcon {
+  color: darkgray;
+  top: auto;
+}
+
+.historyIcon {
+  color: darkgray;
+}
+
+.dropdownIcon {
+  color: darkgray;
+}
+.btn.btn-dashed {
+  border: gray 1px dashed;
+}

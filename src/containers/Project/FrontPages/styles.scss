@@ -1,0 +1,12 @@
+.job-list {
+  .header {
+    padding-top: 30px;
+
+    &:after {
+      content: "";
+      display: block;
+      border-bottom: 1px solid lightgray;
+      margin: 10px;
+    }
+  }
+}

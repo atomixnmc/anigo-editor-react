@@ -1,0 +1,40 @@
+
+.bodyWeeklyTestReport {
+    padding: 0 0 0 0;
+    text-align: center;
+    .tableWeeklyTestReport {
+      margin: 0 0 0 0;
+      thead {
+        background: #B5B5B5;
+        tr {
+          border: 1px solid #000000;
+          th {
+            vertical-align: inherit !important;
+            text-align: center;
+            border: 1px solid #000000;
+          }
+        }
+      }
+      tbody {
+        tr {
+          border: 1px solid #000000;
+          td {
+            text-align: center;
+            border: 1px solid #000000;
+          }
+          .subTotalLabel {
+            font-weight: bold;
+          }
+          .coverageLabel {
+            font-weight: bold;
+          }
+        }
+        .subTotalRow {
+          background: #DFE8EB;
+        }
+        .coverageRow {
+          background: #DFE8EB;
+        }
+      }
+    }
+  }

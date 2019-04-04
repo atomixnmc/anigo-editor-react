@@ -1,0 +1,17 @@
+.widget{
+    height: 200px;
+  
+    div.main {
+      height: 100px;
+      text-align: center;
+      h3 {
+          font-size: 40px;
+      }
+    }
+  
+    .stats {
+        .number {
+            font-weight: bold;
+        }
+    }
+  }

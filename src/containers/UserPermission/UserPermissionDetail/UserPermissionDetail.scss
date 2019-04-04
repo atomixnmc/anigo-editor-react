@@ -1,0 +1,92 @@
+.widgets {
+  .refreshBtn {
+    margin-left: 20px;
+  }
+  .idCol {
+    width : 10%;
+  }
+  .nameCol {
+    width : 11%;
+  }
+  .platformCol {
+    width : 11%;
+  }
+  .versionCol {
+    width : 12%;
+  }
+  .statusCol {
+    width : 11%;
+  }
+  .actionCol {
+    width : 11%;
+  }
+  .paramCol {
+    width : 16%;
+  }
+  .executeTimesCol {
+    width : 16%;
+  }
+  .col {
+    width : 16%;
+  }
+  .colorCol {
+    width: 20%;
+  }
+  .sprocketsCol {
+    width: 20%;
+    text-align: right;
+    input {
+      text-align: right;
+    }
+  }
+  .ownerCol {
+    width: 30%;
+  }
+  .buttonCol {
+    width: 25%;
+    :global(.btn) {
+      margin: 0 5px;
+    }
+  }
+  tr.saving {
+    opacity: 0.8;
+    :global(.btn) {
+      &[disabled] {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.pageHeader {
+  padding: 20px 0 20px 0;
+}
+
+.scheduleCol {
+  width : 12%;
+}
+
+.testScriptCol {
+  width : 10%;
+}
+
+.groupButtonCol {
+  width: 160px;
+}
+
+.detailIcon {
+  color: darkgray;
+}
+
+.runIcon {
+  color: darkgray;
+  top: auto;
+}
+
+.historyIcon {
+  color: darkgray;
+}
+
+.dropdownIcon {
+  color: darkgray;
+}

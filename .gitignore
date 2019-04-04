@@ -1,0 +1,6 @@
+node_modules
+*.log.*
+static/dist
+dist
+.vscode/
+webpack-assets.json

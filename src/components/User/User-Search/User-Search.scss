@@ -1,0 +1,22 @@
+.table thead {
+  .idCol {
+    width : 10%;
+  }
+  .nameCol {
+    width : 11%;
+  }
+  .actionCol{
+    width : 10%;
+    min-width: 150px;
+  }
+  .platformCol {
+    width : 11%;
+  }
+  .tagCol {
+    width : 20%;
+  }
+}
+
+.modal-large, .modal-lg {
+  width: 1100px;
+}
